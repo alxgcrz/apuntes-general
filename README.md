@@ -14,6 +14,7 @@ Apuntes y notas en general de diversas tecnologías, lenguajes de programación,
 * [Kotlin](.//kotlin//kotlin.md)
 * [Kubernetes](.//kubernetes//kubernetes.md)
 * [Maven](.//maven//maven.md)
+* [Principios S.O.L.I.D.](.//solid//solid.md)
 * [TypeScript](.//typescript//typescript)
 
 ## Licencia
