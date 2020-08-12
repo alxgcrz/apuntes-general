@@ -2478,6 +2478,20 @@ Otra característica que permite la compatibilidad con código legado es el uso 
 [![Licencia de Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 Esta obra está bajo una [licencia de Creative Commons Reconocimiento-Compartir Igual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
 
+## ANEXO: JavaFX
+
+* [Getting Started with JavaFX](https://openjfx.io/openjfx-docs/#introduction)
+
+### JavaFX 11 & IntelliJ
+
+1. Create a JavaFX project
+2. Set JDK 11 (point to your local Java 11 ea version)
+3. Add the JavaFX 11 SDK as a library. The URL could be something like "C:\Program Files\Java\javafx-sdk-11\lib". Once you do this you will notice that the JavaFX classes are now recognized in the editor.
+4. Before you run the default project, you just need to add these to the VM options (Edit Configurations): `--module-path "C:\Program Files\Java\javafx-sdk-11\lib" --add-modules=javafx.controls,javafx.fxml`
+5. Run
+
+[Source](https://stackoverflow.com/questions/52467561/intellij-cant-recognize-javafx-11-with-openjdk-11)
+
 ## ANEXO: Effective Java
 
 (todo)

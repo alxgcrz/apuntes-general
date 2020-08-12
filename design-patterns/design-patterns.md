@@ -1452,6 +1452,7 @@ class FactoriaPrototipo {
 <https://danielggarcia.wordpress.com/2014/02/24/patrones-de-creacion-iii-patron-prototype/>  
 <https://refactoring.guru/design-patterns/prototype>  
 <https://sourcemaking.com/design_patterns/prototype>  
+<https://www.baeldung.com/java-pattern-prototype>  
 
 ### - Patrón *__"Singleton"__* -
 

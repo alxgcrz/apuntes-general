@@ -563,9 +563,10 @@ Este principio está relacionado con el concepto de [*"Inyección de Dependencia
 
 ## Links
 
-- <https://es.wikipedia.org/wiki/SOLID>
-- <https://blogs.msdn.microsoft.com/cdndevs/2009/07/15/the-solid-principles-explained-with-motivational-posters/>
-- <https://profile.es/blog/principios-solid-desarrollo-software-calidad/>
+- <https://es.wikipedia.org/wiki/SOLID>  
+- <https://blogs.msdn.microsoft.com/cdndevs/2009/07/15/the-solid-principles-explained-with-motivational-posters/>  
+- <https://profile.es/blog/principios-solid-desarrollo-software-calidad/>  
+- <https://www.baeldung.com/java-liskov-substitution-principle>  
 
 ## License
 
