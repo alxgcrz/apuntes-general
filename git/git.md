@@ -616,6 +616,17 @@ git filter-branch -f --env-filter '
 ' -- --all
 ```
 
+### Git Large File Storage (LFS)
+
+<https://git-lfs.github.com/>
+
+1. `git lfs install` - You only need to run this once per user account
+1. `git lfs track "*.psd"`
+1. `git add .gitattributes` - Now make sure _.gitattributes_ is tracked
+1. `git add file.psd`
+1. `git commit -m "Add design file"`
+1. `git push origin master`
+
 ### Mensaje de Commit - 'Udacity'
 
 A commit messages consists of three distinct parts separated by a blank line:

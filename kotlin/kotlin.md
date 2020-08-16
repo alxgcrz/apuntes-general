@@ -1,6 +1,34 @@
 # Apuntes de [Kotlin]
 
-<https://kotlinlang.org/docs/tutorials/command-line.html>
+Kotlin es un lenguaje de programación de código abierto de tipo estático que se dirige a JVM, Android, JavaScript y Native. Está desarrollado por JetBrains. El proyecto se inició en 2010 y fue de código abierto desde muy temprano. El primer lanzamiento oficial 1.0 fue en febrero de 2016.
+
+## Características
+
+Un lenguaje de programación se diseña generalmente con un propósito específico en mente. Este propósito puede ser cualquier cosa, desde servir a un entorno específico (por ejemplo, la web) hasta un determinado paradigma (por ejemplo, la programación funcional). En el caso de **Kotlin** el objetivo es construir un lenguaje productivo y pragmático, que tenga todas las características que un desarrollador necesita y que sea fácil de usar.
+
+Kotlin fue diseñado inicialmente para trabajar con otros lenguajes de JVM, pero ahora ha evolucionado para ser mucho más: también funciona en el navegador y como una aplicación nativa.
+
+Kotlin es multiparadigma, con soporte para paradigmas de programación orientada a objetos, procedimentales y funcionales, sin forzar el uso de ninguno de ellos. Por ejemplo, a diferencia de Java, puede definir funciones de nivel superior, sin tener que declararlas dentro de una clase.
+
+* 100% interoperable con Java.
+* 100% compatible con Java 6, por lo que puede crear aplicaciones para la mayoría de los dispositivos Android.
+* Se ejecuta en la JVM, puede transpilarse (traducirse) a JavaScript e incluso puede ejecutarse de forma nativa, con interoperabilidad con las bibliotecas C y Objective-C (macOs e iOS).
+* No hay necesidad de terminar las frases con punto y coma `;`. Los bloques de código están delimitados por corchetes `{ }`.
+* Soporte de primera clase para valores constantes y colecciones inmutables (ideal para programación paralela y funcional).
+* Las funciones pueden ser elementos de nivel superior (es decir, no hay necesidad de poner todo dentro de una clase).
+* Las funciones son ciudadanos de primera clase: pueden transmitirse como cualquier otro tipo y utilizarse como argumento de las funciones. Lambda (es decir, funciones anónimas) son muy compatibles con la biblioteca estándar.
+* No hay una palabra clave `static`, sino que hay mejores alternativas.
+* Clases de datos son clases especiales diseñadas para contener datos.
+* Todo es una expresión: `if`, `for`, etc... Todos pueden devolver valores.
+* La expresión `when` es como un interruptor con superpoderes.
+
+Más información:
+
+<https://kotlinlang.org/docs/reference/comparison-to-java.html>  
+<https://kotlinlang.org/docs/reference/server-overview.html>  
+<https://kotlinlang.org/docs/reference/evolution/kotlin-evolution.html>  
+
+## Kotlin en línea de comandos
 
 * Compilar la aplicación usando el compilador de Kotlin: `$ kotlinc name.kt -include-runtime -d name.jar`
 * Ejecutar el programa: `$ java -jar name.jar`
@@ -9,25 +37,9 @@
 * Compilar una biblioteca sin la 'runtime' para ser usada en otros programas: `$ kotlinc name.kt -d name.jar`
 * Ejecutar binarios producidos por el compilador de Kotlin: `$ kotlin -classpath name.jar HelloKt (HelloKt is the main class name inside the file named name.kt)`
 
-## Features
+Más información:
 
-Un lenguaje de programación se diseña generalmente con un propósito específico en mente. Este propósito puede ser cualquier cosa, desde servir a un entorno específico (por ejemplo, la web) hasta un determinado paradigma (por ejemplo, la programación funcional). En el caso de **Kotlin** el objetivo es construir un lenguaje productivo y pragmático, que tenga todas las características que un desarrollador necesita y que sea fácil de usar.
-
-Kotlin fue diseñado inicialmente para trabajar con otros lenguajes de JVM, pero ahora ha evolucionado para ser mucho más: también funciona en el navegador y como una aplicación nativa.
-
-Kotlin es multiparadigma, con soporte para paradigmas de programación orientados a objetos, procedimentales y funcionales, sin forzar el uso de ninguno de ellos. Por ejemplo, a diferencia de Java, puede definir funciones como de nivel superior, sin tener que declararlas dentro de una clase.
-
-* 100% interoperable con Java
-* 100% compatible con Java 6, por lo que puede crear aplicaciones para la mayoría de los dispositivos Android
-* Se ejecuta en la JVM, puede transpilarse (traducirse) a JavaScript e incluso puede ejecutarse de forma nativa, con interoperabilidad con las bibliotecas C y Objective-C (macOs e iOS).
-* No hay necesidad de terminar las frases con punto y coma `;`. Los bloques de código están delimitados por corchetes `{ }`
-* Soporte de primera clase para valores constantes y colecciones inmutables (ideal para programación paralela y funcional)
-* Las funciones pueden ser elementos de nivel superior (es decir, no hay necesidad de poner todo dentro de una clase).
-* Las funciones son ciudadanos de primera clase: pueden transmitirse como cualquier otro tipo y utilizarse como argumento de las funciones. Lambda (es decir, funciones anónimas) son muy compatibles con la biblioteca estándar
-* No hay una palabra clave `static`, sino que hay mejores alternativas
-* Clases de datos, clases especiales diseñadas para contener datos
-* Todo es una expresión: `if`, `for`, etc. todos pueden devolver valores
-* La expresión `when` es como un interruptor con superpoderes
+<https://kotlinlang.org/docs/tutorials/command-line.html>  
 
 ## Sintaxis básica
 
