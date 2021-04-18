@@ -8,7 +8,6 @@ Apuntes y notas en general de diversas tecnologías, lenguajes de programación,
 * [Docker](.//docker//docker.md)
 * [GameMaker: Studio 1.4](.//gamemaker//gamemaker.md)
 * [Git](.//git//git.md)
-* [Java](.//java//java.md)
 * [Kubernetes](.//kubernetes//kubernetes.md)
 * [Markdown](.//markdown//markdown.md)
 * [Maven](.//maven//maven.md)
