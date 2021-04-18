@@ -4,20 +4,16 @@ Apuntes y notas en general de diversas tecnologías, lenguajes de programación,
 
 ## Secciones
 
-* [Angular](.//angular//angular.md)
 * [Bash](.//bash//bash.md)
-* [Dart](.//dart//dart.md)
 * [Docker](.//docker//docker.md)
 * [GameMaker: Studio 1.4](.//gamemaker//gamemaker.md)
 * [Git](.//git//git.md)
 * [Java](.//java//java.md)
-* [Kotlin](.//kotlin//kotlin.md)
 * [Kubernetes](.//kubernetes//kubernetes.md)
 * [Markdown](.//markdown//markdown.md)
 * [Maven](.//maven//maven.md)
 * [Patrones de diseño](.//design-patterns//design-patterns.md)
 * [Principios S.O.L.I.D.](.//solid//solid.md)
-* [TypeScript](.//typescript//typescript)
 
 ## Licencia
 
