@@ -11,7 +11,6 @@ Apuntes y notas en general de diversas tecnologías, lenguajes de programación,
 * [Kubernetes](.//kubernetes//kubernetes.md)
 * [Markdown](.//markdown//markdown.md)
 * [Maven](.//maven//maven.md)
-* [Patrones de diseño](.//design-patterns//design-patterns.md)
 * [Principios S.O.L.I.D.](.//solid//solid.md)
 
 ## Licencia
