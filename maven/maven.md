@@ -120,3 +120,4 @@ La lista de _plugins_ oficiales y no oficiales soportados por Maven se puede con
 - <https://www.javaguides.net/p/maven.html>
 - <https://maven.apache.org/plugins/index.html>
 - <https://itnext.io/writing-a-full-featured-maven-pom-f5b874eef312>
+- <https://programmingtechie.com/2020/12/05/complete-maven-tutorial/>
